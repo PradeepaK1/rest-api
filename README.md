@@ -50,3 +50,22 @@ GET ‘http://localhost:8080/bosses/5aecef5b6d55754834124df3’
 DELETE ‘http://localhost:8080/bosses/5aecef5b6d55754834124df3’
 GET ‘http://localhost:8080/bosses’
 
+To dockerize the project enter the command
+
+
+
+mvn clean package 
+
+
+A jar file will be created then enter this command
+
+java -jar ./target/hola-docker-1.0.0-SNAPSHOT.jar
+
+
+
+now create a Dockerfile to build and run the image of the built application
+
+
+and docker-compose.yml file to specify the version and other requirements
+
+Now you can build and run your application using docker
