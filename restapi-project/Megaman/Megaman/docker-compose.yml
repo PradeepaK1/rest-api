@@ -1,0 +1,14 @@
+version: '2.2'
+services: 
+  - Megaman
+build:
+  
+    dockerfile: Dockerfile
+    image: Megaman
+    ports:
+      - 8080
+    networks:
+      - network1
+
+networks:
+  network1:

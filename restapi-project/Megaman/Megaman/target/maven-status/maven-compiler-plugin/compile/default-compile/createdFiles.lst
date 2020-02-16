@@ -1,0 +1,4 @@
+com\example\rrice\Megaman\BossesController.class
+com\example\rrice\Megaman\MegamanApplication.class
+com\example\rrice\Megaman\models\bosses.class
+com\example\rrice\Megaman\repositories\BossesRepository.class
