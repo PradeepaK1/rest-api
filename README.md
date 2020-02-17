@@ -59,7 +59,7 @@ mvn clean package
 
 A jar file will be created then enter this command
 
-java -jar ./target/hola-docker-1.0.0-SNAPSHOT.jar
+java -jar ./target/Megaman-docker-0.0.1-SNAPSHOT.jar  
 
 
 
